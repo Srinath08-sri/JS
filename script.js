@@ -123,3 +123,51 @@ for(let i=1;i<=20;i++)
     console.log("---------------");
 }
 
+//while loop
+let i=1
+while(i<=10)
+{
+    console.log(2*i) //2 table
+    i++;
+}
+
+//do while loop
+let i=1
+do{
+    console.log("INAFANT")
+}
+while(i<0)
+
+//TECH
+ let a=45
+ let b=a*a
+ let c=b%100
+ let d=b/100
+ if(parseInt (c+d)==a)
+ {
+    console.log("TECH")
+ }
+ else{
+    console.log("NOT TECH")
+ }
+
+//swapping using temp
+let a=10
+let b=20
+temp=0
+temp=a
+a=b
+b=temp
+console.log(a)
+console.log(b)
+
+//swapping without let a=10
+let b=20
+a=a+b
+ b=a-b
+ a=a-b
+console.log(a)
+console.log(b)using temp
+
+
+
