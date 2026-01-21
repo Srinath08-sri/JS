@@ -169,5 +169,47 @@ a=a+b
 console.log(a)
 console.log(b)using temp
 
+//array
+let a=[1,2,3,"sri",true]
+console.log(a)
+
+//array using index value
+let a=[1,2,3,"sri",true]
+console.log(a[0],a[1],a[2],a[3],a[4])
+
+//for loop
+let a=[1,2,3,"sri",true]
+for(let i=0;i<5;i++)
+{
+    console.log(a[i])
+}
+
+//finding max value
+let a=[1,2,4,5,9,8,10,12]
+largest=a[0]
+for(let i=0;i<7;i++)
+{
+    if(a[i]>largest)
+        largest=a[i]
+}
+console.log(largest)
+
+//finding same
+let a=[1,2,4,5,6]
+let b=[1,2,4,5,6]
+let flag=true
+for(let i=0;i<5;i++)
+{
+    if(a[i]==b[i])
+    {
+     flag=true
+    }
+    else{
+        flag=false
+        break
+    }
+        
+}
+
 
 
