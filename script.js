@@ -211,6 +211,60 @@ for(let i=0;i<5;i++)
         
 }
 
+ let a=[1,2,4,5,6]
+let b=[1,2,4,6,6]
+let same=true
+for(let i=0;i<5;i++)
+{
+    if(a[i]!==b[i])
+    {
+        same=false
+    }
+}
+if(same)
+{
+    console.log("same")
+}
+else
+{
+    console.log("not same")
+}
+
+let a=[1,2,4,5,6]
+let b=[1,2,4,5,6]
+let flag=true
+for(let i=0;i<5;i++)
+{
+    if(a[i]==b[i])
+    {
+     flag=true
+    }
+    else{
+        flag=false
+        break
+    }
+        
+}
+console.log(flag)
+
+let a=[1,2,3,4,5]
+let target=9
+let sum=0
+for(let i=0;i<5;i++)
+{
+    for(let j=i+1;j<5;j++)
+    {
+        if(a[i]+a[j]==target)
+        {
+      sum=a[i]+a[j]
+       break
+        }
+           
+    } 
+}
+console.log(target)
+
+
 function hello()
 {
     console.log("hi")
