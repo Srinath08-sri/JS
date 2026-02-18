@@ -423,6 +423,53 @@ function f5(c1,c2,c3,c4)
 }
 f5(f1,f2,f3,f4);
 
+//timeout
+
+console.log(1);
+console.log(2);
+console.log(3);
+setTimeout(()=>
+{
+    console.log(4)
+},2000)
+console.log(5);
+
+function f1()
+{
+    console.log("f1");
+}
+function f2()
+{
+    console.log("f2");
+}
+function f3()
+{
+    console.log("infant thondu");
+}
+function f4()
+{
+    console.log("f4");
+}
+function f5()
+{
+    console.log("f5")
+}
+f1();
+f2();
+setTimeout(f3,200);
+f4();
+f5();
+
+function a(Callback)
+{
+    Callback();
+}
+a(()=>
+{
+    console.log("sri")
+})
+
+
 
 
 
