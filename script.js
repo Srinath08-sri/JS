@@ -211,5 +211,225 @@ for(let i=0;i<5;i++)
         
 }
 
+function hello()
+{
+    console.log("hi")
+}
+hello();
+function hello1()
+{
+    console.log("infant thondu")
+}
+hello1();
+function hello2()
+{
+    console.log("sri")
+}
+hello2();
+
+function  hello3()
+{
+    console.log("ro")
+}
+hello3();
+
+function add(a,b) //Addition
+{
+    console.log(a+b);
+}
+add(3,4);
+add(30,0);
+
+function sub(a,b) //Subtraction
+{
+    console.log(a-b);
+}
+sub(12,2);
+
+function mul(a,b) //multiplication
+{
+    console.log(a*b)
+}
+mul(2,3);
+
+function div(a,b) //division
+{
+    console.log(a/b);
+}
+div(10,2);
+
+function mod(a,b) //modulus
+{
+    console.log(a%b)
+}
+mod(10,2);
+
+function add(a,b)
+{
+    return a+b;
+}
+// const a=add(12,4); //(or)
+console.log(add(2,3))
+    
+const add=(a,b)=>  //arrow function
+    {
+    return a+b;
+}
+console.log(add(1,3));
+
+const sub=(a,b)=>
+    {
+    return a-b;
+}
+console.log(sub(12,3));
+
+const mul=(a,b)=>
+    {
+    return a*b;
+}
+console.log(mul(1,3));
+
+const div=(a,b)=>
+    {
+    return a/b;
+}
+console.log(div(12,3));
+
+const mod=(a,b)=>
+    {
+    return a%b;
+}
+console.log(mod(12,3));
+
+ function details(name,city,age)
+ {
+    return name+" "+city+" " +age ;
+ }
+ console.log(details("sri","hosur",29));
+
+ function qualification(degree,college,year)
+{
+    return degree+" "+college+" " +year;
+}
+console.log(qualification("Bsc","SFS",2026))
+
+function a()
+{
+    console.log("hii")
+    function b()
+    {
+        console.log("infant thondu")
+    }
+   
+    b();
+}
+a();
+
+function a()
+{
+    console.log("infant");
+    function b()
+    {
+        console.log("oru");
+    }
+    
+    function c()
+    {
+        console.log("thondu");
+    }
+
+    function d()
+    {
+        console.log("paiyan");
+    }
+b();
+c();
+d();
+}
+a();
+
+let a=10;
+const b=10;
+{
+    let a=10;
+    console.log(a);
+    console.log(b);
+}
+console.log(a);
+
+var
+{
+    var a=10;
+    console.log(a);
+}
+console.log(a);
+
+hello();
+hello1();
+hello2();
+function hello()
+{
+    console.log("sri")
+}
+
+
+function hello1()
+{
+    console.log("fantra")
+} 
+
+function hello2()
+{
+console.log("infant")
+}
+
+gret
+
+function a(name,Callback)
+{
+    console.log("my name is",name);
+    Callback();
+}
+function gret()
+{
+    console.log("good morning")
+}
+a("sri",gret)
+
+function f1()
+{
+    console.log("im infant thondu");
+}
+function f2()
+{
+    console.log("im infant thondu"); 
+}
+function f3()
+{
+    console.log("im infant thondu");
+  
+}
+function f4()
+{
+    console.log("im infant thondu");
+    
+}
+function f5(c1,c2,c3,c4)
+{
+    c1();
+    c2();
+    c3();
+    c4();  
+}
+f5(f1,f2,f3,f4);
+
+
+
+
+
+
+
+
+
 
 
